@@ -7,12 +7,20 @@
 		<portlet-class>com.vaadin.terminal.gwt.server.ApplicationPortlet2</portlet-class>
 		<init-param>
 			<name>view-template</name>
+			<value>map</value>
+		</init-param>
+		<init-param>
+			<name>application</name>
 			<value>map.MapApplication</value>
 		</init-param>
 		<expiration-cache>0</expiration-cache>
-		<supports>
-			<mime-type>text/html</mime-type>
-		</supports>
+		<!-- Supported portlet modes and content types. -->
+    <supports>
+      <mime-type>text/html</mime-type>
+      <portlet-mode>view</portlet-mode>
+      <portlet-mode>edit</portlet-mode>
+      <portlet-mode>help</portlet-mode>
+    </supports>
 		<portlet-info>
 			<title>Map</title>
 			<short-title>Map</short-title>

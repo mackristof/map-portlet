@@ -16,7 +16,7 @@ public class MapApplication extends Application {
 
 		setMainWindow(window);
 
-		Label label = new Label("Hello Map!");
+		Label label = new Label("Hello Map2!");
 
 		window.addComponent(label);
 	}
