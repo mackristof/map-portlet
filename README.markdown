@@ -8,7 +8,8 @@ How to build
 
 1 with liferay SDK
 
-	put this project in the portlets diretory of liferay SDK 
+	put this project in the portlets diretory of liferay SDK.
+	launch the ant command of liferay SDK.
 
 
 2 with maven
