@@ -16,7 +16,7 @@
 				<directory>${basedir}/docroot/WEB-INF/src</directory>
 				<excludes>
 					<exclude>**/*.java</exclude>
-					<exclude>**/*.tmp</exclude>
+					<exclude>**/*.dummy</exclude>
 				</excludes>
 			</resource>
 		</resources>
