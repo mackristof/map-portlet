@@ -20,6 +20,7 @@
 				</excludes>
 			</resource>
 		</resources>
+		
 		<plugins>
 			<!-- ======================================================= -->
 			<!-- Liferay deploy. -->
